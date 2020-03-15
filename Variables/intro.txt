@@ -1,0 +1,21 @@
+You can create a variable and assign it a value in the same step. PowerShell only creates the variable if it doesn't exist. 
+Otherwise, it assigns the specified value to the existing variable. The following example stores the current location in the variable $loc:
+
+$loc = Get-Location
+
+
+PowerShell can use the same environment variables available to any Windows process, including cmd.exe. 
+These variables are exposed through a drive named env:. You can view these variables by typing the following command:
+
+Get-ChildItem env:
+
+or 
+
+Get-ChildItem Env:\JAVA_HOME
+
+
+You can also create and modify environment variables from within PowerShell. 
+Environment variables in PowerShell follow the same rules for environment variables used elsewhere in the operating system. 
+The following example creates a new environment variable:
+
+$env:LIB_PATH='/usr/local/lib'

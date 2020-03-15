@@ -1,0 +1,23 @@
+------Powershell Data types:
+Boolean - True or False condition
+Byte - 
+Char - 
+Date - 
+Decimal - 
+Double - 
+Integer - 
+Long -
+Object - Desciption
+Short - 
+Single - A Single precision 32-bit floating point number. This is a very similar datatype, just like a double. However, it holds fewer values such as 20.3654
+String - 
+
+------Special Variables
+$Error - An array of error objects which display the most recent errors
+$Host -	Display the name of the current hosting application
+$Profile - Stores entire path of a user profile for the default shell
+$PID - Stores the process identifier
+$PSUICulture - It holds the name of the current UI culture.
+$NULL - Contains empty or NULL value.
+$False - Contains FALSE value
+$True - Contains TRUE value

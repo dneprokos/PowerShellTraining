@@ -1,0 +1,2 @@
+$loc = Get-Location
+$loc

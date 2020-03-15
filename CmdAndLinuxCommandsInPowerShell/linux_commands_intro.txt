@@ -1,0 +1,30 @@
+---The following list shows a few of the common cmd.exe and Unix commands that you can use in PowerShell:
+
+cat	- Display Contents of File
+dir	- command in Linux is used to list the contents of a directory
+mount -	
+rm - Use this command to delete one or more files or directories.
+cd - Change directory	
+echo - Pring command	
+move -	move files and folders on the computer
+rmdir - The rd and rmdir commands are used to remove empty directories
+chdir -	alias of "cd" command
+erase -	The erase command is used to remove files from your computer's
+popd -	Changes the current directory to the directory that was most recently stored by the pushd command.
+sleep - 
+clear - 	
+h -	
+ps - 	
+sort -
+cls -	
+history -	
+pushd - 	
+tee - 
+copy -	
+kill -	
+pwd -	
+type -
+del -	
+lp -	
+r -	
+write -

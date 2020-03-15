@@ -1,0 +1,23 @@
+Powershell scripts are store in .ps1 file. By default, you can't run a script by just double-clicking a file. This protects your system from accidental harm.
+
+Moreover, there is a policy which restricts script execution. You can see this policy by running the Get-ExecutionPolicy command.
+
+You will get one of the following output:
+
+Restricted— No scripts are allowed. This is the default setting, so it will display first time when you run the command.
+AllSigned— You can run scripts signed by a trusted developer. With the help of this setting, a script will ask for confirmation that you want to run it before executing.
+RemoteSigned— You can run your or scripts signed by a trusted developer.
+Unrestricted— You can run any script which you wants to run
+
+
+---Steps to Change Execution Policy
+
+Step 1) Open an elevated PowerShell prompt. Right Click on PowerShell and "Run as Administrator"
+
+
+Step 2) Enter the Following commands
+
+Get-ExecutionPolicy
+Set-execution policy unrestricted
+Enter Y in the prompt
+Get-ExecutionPolicy

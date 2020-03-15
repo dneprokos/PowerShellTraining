@@ -1,0 +1,12 @@
+PowerShell Cmdlet
+A cmdlet which is also called Command let is a is a lightweight command used in the Window base PowerShell environment. 
+PowerShell invokes these cmdlets in the command prompt. You can create and invoke cmdlets command using PowerShell APIS.
+
+A cmdlet always consists of a verb and a noun, separated with a hyphen. Some of the verbs use for you to learn PowerShell is:
+
+Get — To get something
+Start — To run something
+Out — To output something
+Stop — To stop something that is running
+Set — To define something
+New — To create something

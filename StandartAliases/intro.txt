@@ -1,0 +1,20 @@
+Get = g
+Set = s
+Item = i
+Location = l
+Command = cm
+Alias = al
+
+--These aliases are understandable when you know the shorthand names.
+
+Get-Item = gi
+Set-Item = si
+Get-Location = gl
+Set-Location = sl
+Get-Command = gcm
+Get-Alias = gal
+
+
+--Creating new aliases
+You can create your own aliases using the Set-Alias cmdlet. For example, the following statements creates alias for "echo" command  
+Set-Alias -Name text -Value echo "test"
